@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "employees",
+  "info": {
+    "name": "employees"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "employee_name": {
+      "type": "string",
+      "required": true,
+      "minLength": 1
+    },
+    "employee_salery": {
+      "type": "integer",
+      "required": true
+    },
+    "employee_age": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
